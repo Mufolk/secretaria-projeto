@@ -17,8 +17,8 @@ import model.requerimento.Requerimento;
 public class Gerenciador {
 
     private static final String URL = "jdbc:postgresql://127.0.0.1:5432/SGR";
-    private static final String USER = "postgres";
-    private static final String PASS = "";
+    private static final String USER = "secpg";
+    private static final String PASS = "ezpass";
     private static final ConexaoBancoDeDados dbconnection = new ConexaoBancoDeDados();
 
     public static void analisaRequerimento(Requerimento requerimento) {
